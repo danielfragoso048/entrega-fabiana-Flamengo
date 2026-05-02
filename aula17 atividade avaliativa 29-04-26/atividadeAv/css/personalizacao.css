@@ -1,0 +1,212 @@
+body{
+
+    background-color: rgb(196, 98, 98);
+    
+}
+
+nav {
+    background: #222;
+    padding: 15px;
+    position: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a { 
+ color: white;
+ text-decoration: none;
+ font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+#inicio {
+    background: url("../img/novobanner.jpg") center/cover no-repeat;
+    color: aliceblue;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 200px;
+}
+
+#inicio h2 {
+    font-size: 40px;
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+h2{
+
+    text-align: center;
+
+}
+
+h2#titulos { 
+    text-align: center;
+}
+
+#newtitu {
+    text-align: center;
+}
+
+p{
+
+    text-align: center;
+    font-size: larger;
+
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border: 5px solid;
+    display: flex;
+    margin: auto;
+}
+
+button:hover{
+
+    background-color:gray ;
+
+}
+
+#titulos {
+    text-align: left;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    padding: 10px;
+    
+}
+
+th {
+    border: 2px solid black;
+    height: 50px;
+}
+
+
+div#linka {
+    display: flex;
+    justify-content: center;
+}
+
+#trofeus {
+    font-size: large;
+    font-weight: bold;
+}
+
+#hino h2 {
+    font-size: 40px;
+}
+
+video, img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    margin: 80px auto;
+    width: 95%;
+    border: 5px solid red;
+    overflow: hidden;
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+    position: relative;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 30s infinite linear;
+    padding-right: 1em;
+}
+
+
+
+.card {
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 0em;
+    background: cornflowerblue;
+    font-size: 3rem;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+}
+
+.card img {
+    height: 1000px;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+
+@media (max-width: 768px) {
+   
+}
